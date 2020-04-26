@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Quiz App</title>
+</head>
+<body>
+    <!-- container -->
+    <div class="container">
+
+        <!-- total-score -->
+        <h1 class="total-score"></h1>
+         
+        <!-- holder -->
+        <div class="holder">
+             
+            <!-- Question-1 -->
+            <span id="question-1">
+                <h1 class="question"> </h1>
+                    <input type="radio" name="optionsQ1" id="question-1-a" class="options" data-content="a">  <label for="question-1-a" id="option-a"></label><br>
+                    <input type="radio" name="optionsQ1" id="question-1-b" class="options" data-content="b">  <label for="question-1-b" id="option-b"></label><br>
+                    <input type="radio" name="optionsQ1" id="question-1-c" class="options" data-content="c">  <label for="question-1-c" id="option-c"></label><br>
+                    <input type="radio" name="optionsQ1" id="question-1-d" class="options" data-content="d">  <label for="question-1-d" id="option-d"></label><br>
+                </span>
+                <!-- Question-1 -->
+
+                <!-- Question-2 -->
+                <span id="question-2">
+                <h1 class="question"> </h1>
+                    <input type="radio" name="optionsQ2" id="question-2-a" class="options" data-content="a">  <label for="question-2-a" id="option-a"></label><br>
+                    <input type="radio" name="optionsQ2" id="question-2-b" class="options" data-content="b">  <label for="question-2-b" id="option-b"></label><br>
+                    <input type="radio" name="optionsQ2" id="question-2-c" class="options" data-content="c">  <label for="question-2-c" id="option-c"></label><br>
+                    <input type="radio" name="optionsQ2" id="question-2-d" class="options" data-content="d">  <label for="question-2-d" id="option-d"></label><br>
+                </span>
+                <!-- Question-2 -->
+
+                <!-- Question-3 -->
+                <span id="question-3">
+                <h1 class="question"> </h1>
+                    <input type="radio" name="optionsQ3" id="question-3-a" class="options" data-content="a">  <label for="question-3-a" id="option-a"></label><br>
+                    <input type="radio" name="optionsQ3" id="question-3-b" class="options" data-content="b">  <label for="question-3-b" id="option-b"></label><br>
+                    <input type="radio" name="optionsQ3" id="question-3-c" class="options" data-content="c">  <label for="question-3-c" id="option-c"></label><br>
+                    <input type="radio" name="optionsQ3" id="question-3-d" class="options" data-content="d">  <label for="question-3-d" id="option-d"></label><br>
+                </span>
+                <!-- Question-3 -->
+
+                <!-- Question-4 -->
+                <span id="question-4">
+                <h1 class="question"> </h1>
+                   <input type="radio" name="optionsQ4" id="question-4-a" class="options" data-content="a">  <label for="question-4-a" id="option-a"></label><br>
+                    <input type="radio" name="optionsQ4" id="question-4-b" class="options" data-content="b">  <label for="question-4-b" id="option-b"></label><br>
+                    <input type="radio" name="optionsQ4" id="question-4-c" class="options" data-content="c">  <label for="question-4-c" id="option-c"></label><br>
+                    <input type="radio" name="optionsQ4" id="question-4-d" class="options" data-content="d">  <label for="question-4-d" id="option-d"></label><br>
+                </span>
+                <!-- Question-4 -->
+
+                <!-- Question-5 -->
+                <span id="question-5">
+                <h1 class="question"> </h1>
+                    <input type="radio" name="optionsQ5" id="question-5-a" class="options" data-content="a">  <label for="question-5-a" id="option-a"></label><br>
+                    <input type="radio" name="optionsQ5" id="question-5-b" class="options" data-content="b">  <label for="question-5-b" id="option-b"></label><br>
+                    <input type="radio" name="optionsQ5" id="question-5-c" class="options" data-content="c">  <label for="question-5-c" id="option-c"></label><br>
+                    <input type="radio" name="optionsQ5" id="question-5-d" class="options" data-content="d">  <label for="question-5-d" id="option-d"></label><br>
+                </span>
+                 <!-- Question-5 -->
+
+                 <!-- buttons -->
+                <div class="btns">
+        
+                    <button id="submit" onclick="submit();">Submit</button>
+                    
+                    <button id="next" onclick="nextPage();">Next</button>
+                </div>
+                <!-- buttons -->
+
+        </div>
+        <!-- holder -->
+         
+        <!-- result-page -->
+        <div class="result-page">
+
+            <h1>Exam Finished! <br>
+                Click the button to Restart..
+            </h1>
+               <button type="button" id="reset-btn">Start Again</button>
+        </div>
+        <!-- result-page -->
+        
+    </div>
+    <!-- container -->
+    
+</body>
+
+<!-- script src-->
+<script src="jquery-3.4.1.min.js"></script>
+<script src="script.js"></script>
+
+</html>
